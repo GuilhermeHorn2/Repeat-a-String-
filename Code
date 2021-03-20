@@ -1,0 +1,10 @@
+function repeatStringNumTimes(str, num) {
+  let result = '';
+  for (let i = num-1;i>=0;i--){
+    result += str;
+    
+
+  }
+  return result;
+}
+/* We want to make the program repeat the string num times and not plus num times */
